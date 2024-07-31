@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap')
+        </style>
+    <title>Ribbon Embroidery by Olga Djuk</title>
+</head>
+<body>
+  <header class="header gallery-header">
+    <div id="navbar">
+    <ul  class="navbar-menu">
+        <li class="navbar-item">
+            <a href="./index.html" class="navbar-link">Home </a>
+        </li>
+        <li class="navbar-item">
+            <a href="./gallery.html" class="navbar-link">Gallery</a>
+        </li>
+        <li class="navbar-item">
+            <a href="!" class="navbar-link">Videos</a>
+         </li>
+    
+    </ul> 
+    </div>
+    <ul class="main-menu">
+        <li class="menu-item">
+            <a href="./index.html" class="menu-link">Home </a>
+        </li>
+        <li class="menu-item">
+            <a href="./gallery.html" class="menu-link">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a href="!" class="menu-link">Videos</a>
+         </li>
+    
+    </ul>
+    <div class="header-title-wrapper">
+        <div class="header-title">Ribbon Embroidery Studio</div>
+        <div class="header-subtitle">by Olga Djuk</div>
+        <h2 class="slogan"> Gallery</h2>
+    </div>
+  </header>
+<section class="works gallery-works">
+    <div class="filter-wrap">
+        <button class="filter-item linking" onclick="filterImages('wall-hanging')">Wall hangings</button>
+        <button class="filter-item linking" onclick="filterImages('pillowcase')">Pillowcases</button>
+        <button class="filter-item linking" onclick="filterImages('pincusion')">Pin cusions</button>
+        <button class="filter-item linking" onclick="filterImages('bag')">Bags</button>
+        <button class="filter-item linking" onclick="filterImages('easter-decor')">Easter decor</button>
+        <button class="filter-item linking" onclick="filterImages('christmas-decor')">Christmas decor</button>
+        <button class="filter-item linking" onclick="filterImages('gift-box')" >Gift boxes</button>
+        <button class="filter-item linking" onclick="filterImages('clothes')" >Clothes</button>
+        <button class="filter-item linking" onclick="filterImages('sachet')">Hearts and sachets</button>
+        <button class=" linking clear" onclick="resetFilter()">All</button>
+    </div>
+    </ul>
+    <div class="works-wrap">
+        
+        <img src="img/1-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/2-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/3-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/4-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/5-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/6-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/7-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/8-wallhanging-giftbox.jpg" class="gallery-img wall-hanging gift-box" alt="" onclick="openModal(this)">
+        <img src="img/9-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/10-wall-hanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/11wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/12-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/13-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/14-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/15-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/16-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/17-wallhainging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/18-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/19-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/20-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/21-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/22-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/23-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/24-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/25-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/26-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/27-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/28-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/29-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/30-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/31-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/32-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/33-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/34-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/35-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/36-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/37-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/38-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/39-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/40-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/41-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/42-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/43-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/44-wallhangimg.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/45-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/46-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/47-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/48-easterdecor.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/49-sashet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/50-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/51-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/52-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/53-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/54-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/55-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/56-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/57-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/58-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/59-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/60-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/61-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/62-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/63-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/64-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/65-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/66-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img//67-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/68-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/69-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/70-clothes.jpg" class="gallery-img clothes" alt="" onclick="openModal(this)">
+        <img src="img/71-clothes.jpg" class="gallery-img clothes" alt="" onclick="openModal(this)">
+        <img src="img/72-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/73-cuchion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/74-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/75-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/76-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/77-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/78-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/79-wall-hanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/80-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/81-sachet.jpg" class="gallery-img 50-sachet" alt="" onclick="openModal(this)">
+        <img src="img/82-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/83-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/84-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/85-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/86-pillowcase.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/87-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/88-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/89-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/90-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/91-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/92-wallhanging-giftbox.jpg" class="gallery-img wall-hanging gift-box" alt="" onclick="openModal(this)">
+        <img src="img/93-easteregg.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/94-easteregg.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/95-easteregg.jpg" class="gallery-img easter-decor" alt="" onclick="openModal(this)">
+        <img src="img/96-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/97-wallhanging-sachet.jpg" class="gallery-img wall-hanging sachet" alt="" onclick="openModal(this)">
+        <img src="img/98-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/99-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/100-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/101-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/102-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/103-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/104-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/105-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/106-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/107-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/108-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/109-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/110-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/111-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/112-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/113-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/114-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/115-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/116-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/117christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/118-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/119-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/120-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/121-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/122-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/123-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/124-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/125-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/126-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/127-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/128-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/129-pincushion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/130-pincusion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/131-pillocase.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/132-pincuchion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/133-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/134-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/135-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/136-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/137-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/138-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/139-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/140-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/141-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/142-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/143-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/144-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/145-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/146-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/147-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/148-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/149-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/150-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/151-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/152-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/153-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/154-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/155-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/156-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/157-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/158-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/159-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/160-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/161-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/162-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/163-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/164-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/165-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/166-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/165-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/166-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/167-pillow-sachet.jpg" class="gallery-img pillowcase sachet" alt="" onclick="openModal(this)">
+        <img src="img/168-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/169-wallhanging.jpg" class="gallery-img wall-hanging" alt="" onclick="openModal(this)">
+        <img src="img/170-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/171-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/172-bag.jpg" class="gallery-img bag" alt="" onclick="openModal(this)">
+        <img src="img/173-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/174-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/175-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/176-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/177-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/178-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/179-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/180-pincushion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/181-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/182-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/183-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/184-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/185-picushion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/186-pincushion.jpg" class="gallery-img pincusion" alt="" onclick="openModal(this)">
+        <img src="img/187-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/188-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/189-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/190-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/191-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/192-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/193-pillow.jpg" class="gallery-img pillowcase" alt="" onclick="openModal(this)">
+        <img src="img/53-christmas.jpg" class="gallery-img christmas-decor" alt="" onclick="openModal(this)">
+        <img src="img/54-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/55-giftbox.jpg" class="gallery-img gift-box" alt="" onclick="openModal(this)">
+        <img src="img/56-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/57-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        <img src="img/58-sachet.jpg" class="gallery-img sachet" alt="" onclick="openModal(this)">
+        
+     </div>
+     <div class="overlay" onclick="closeModal(this)">
+  <!-- Здесь будет увеличенное изображение -->
+</div>
+</section>
+<footer class="footer">
+        <div class="kontakte-item">
+            <a href="tel:+491605932821">
+                <button class="linking contact-btn">Phone me</button>
+            </a>
+        </div>
+        <div class="kontakte-item">
+            <button class="linking contact-btn"onclick="location.href='mailto:olgadjuk3@gmail.com'">Write me an E-Mail</button>  
+        </div>
+        <ul class="social">
+         <li class="menu-item social-item">
+            Facebook
+            </li>
+         <li class="menu-item social-item"> Tiktok</li>
+         <li class="menu-item social-item">Instagram</li>
+        </ul>
+
+  </footer>
+<script src="javs.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>

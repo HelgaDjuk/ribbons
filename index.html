@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap')
+        </style>
+    <title>Ribbon Embroidery by Olga Djuk</title>
+</head>
+<body>
+   
+  <header class="header">
+    <div id="navbar">
+    <ul  class="navbar-menu">
+        <li class="navbar-item">
+            <a href="./index.html" class="navbar-link">Home </a>
+        </li>
+        <li class="navbar-item">
+            <a href="./gallery.html" class="navbar-link">Gallery</a>
+        </li>
+        <li class="navbar-item">
+            <a href="!" class="navbar-link">Videos</a>
+         </li>
+    
+    </ul> 
+    </div>
+    <ul class="main-menu">
+        <li class="menu-item">
+            <a href="./index.html" class="menu-link">Home </a>
+        </li>
+        <li class="menu-item">
+            <a href="./gallery.html" class="menu-link">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a href="!" class="menu-link">Videos</a>
+         </li>
+    
+    </ul>
+    <div class="header-title-wrapper">
+        <div class="header-title">Ribbon Embroidery Studio</div>
+        <div class="header-subtitle">by Olga Djuk</div>
+        <div class="slogan"> A Poem to The Flowers</div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="about-wrapper">
+    <div class="about-info">
+        <p> 
+            Hi, I am Olga. Welcome to the website with my works made in ancient technique of
+            ribbon embroidery. I made them with all my love and 
+            passion to flowers and I hope you will enjoy them. 
+            I gathered all of them in my Gallery in a little bit chaotic way, but the filters can be helpful.
+            In the section Videos you can find videos and other stuff about ribbon embroidery.
+                </p>
+           <p> I do not sell my works. This website is only for fun.
+            </p>
+    </div> 
+     
+     <div class="slider about-info">
+                    <img src="./img/4-wallhanging.jpg" alt="Bild 1" class= "schaubilder active">
+                    <img src="./img/39-christmas.jpg" alt="Bild 2" class= "schaubilder"> 
+                    <img src="./img/38-giftbox.jpg" alt="Bild 3" class="schaubilder">  
+                    <img src="./img/15-wallhanging.jpg" alt="Bild 4" class="schaubilder">
+                    <img src="./img/46-easterdecor.jpg" alt="Bild 5" class="schaubilder">
+                    <button id="prev" class="prev" onclick="prevSlide()"> &#10094;</button>
+                    <button id="next" class="next" onclick="nextSlide()"> &#10095;</button>
+                </div>
+        </div>
+    </section>
+ </section>
+<section class="works">
+    <div class=" title works-intro">Do you like roses, pansies and other flowers? Then visit the gallery with 
+        my works. </div>
+    <button class="linking"><a href="gallery.html">to the gallery</a>
+        </button>
+    <div class="works-wrap">
+        <img src="img/40-christmas.jpg" alt="" onclick="openModal(this)">
+        <img src="img/77-giftbox.jpg" alt="" onclick="openModal(this)">
+        <img src="img/117christmas.jpg" alt="" onclick="openModal(this)">
+        <img src="img/14-wallhanging.jpg" alt="" onclick="openModal(this)">
+     </div>
+     <div class="overlay" onclick="closeModal(this)">
+  <!-- Здесь будет увеличенное изображение -->
+</div>
+</section>
+<section class="articles">
+    <div class="title articles-intro">About Ribbon Embroidery </div>
+    <div class="articles-intro">
+        <div class="intro-articles-foto">
+            <img src="img/IMG_20240304_195813.jpg" alt=""></div>
+        <div class="intro-articles-info">
+            <p>Ribbon embroidery is a delicate and intricate art form that has adorned 
+                fabrics for centuries. Its origins can be traced back to ancient
+                 civilizations, where it began as a simple technique for decorating
+                  clothing and has since evolved into a sophisticated craft celebrated 
+                  for its beauty and elegance.</p> 
+        </div>
+        <div class="intro-articles-foto">
+            <img src="img/IMG_20240304_195813.jpg" alt=""></div>
+    </div>
+    <button class="linking articles-link"><a href="!">to the videos</a>
+        </button>
+    
+</section>
+<footer class="footer">
+        <div class="kontakte-item">
+            <a href="tel:+491605932821">
+                <button class="linking contact-btn">Phone me</button>
+            </a>
+        </div>
+        <div class="kontakte-item">
+            <button class="linking contact-btn"onclick="location.href='mailto:olgadjuk3@gmail.com'">Write me an E-Mail</button>  
+        </div>
+        <ul class="social">
+         <li class="menu-item social-item">
+            Facebook
+            </li>
+         <li class="menu-item social-item"> Tiktok</li>
+         <li class="menu-item social-item">Instagram</li>
+        </ul>
+
+  </footer>
+<script src="javs.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>
